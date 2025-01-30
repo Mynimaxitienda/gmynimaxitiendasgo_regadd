@@ -10,7 +10,7 @@
 
 //Firebase: Authentication
 //Google Firebase : Google Popu up
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
 
 import {
   getAuth,
@@ -19,7 +19,7 @@ import {
   getRedirectResult,
   onAuthStateChanged,
   signOut
-} from "https://www.gstatic.com/firebasejs/10.13.1/firebase-auth.js";
+} from "https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js";
 
 //Firebase: RealTime Database
 import {
@@ -34,20 +34,20 @@ import {
   equalTo, 
   child,
   update
-} from "https://www.gstatic.com/firebasejs/10.13.1/firebase-database.js";
+} from "https://www.gstatic.com/firebasejs/11.2.0/firebase-database.js";
 
 let direccion="", celular="", ciudad="";
 
 //Firebase: Initialize service
 const firebaseApp = initializeApp({
-    apiKey: "AIzaSyCjw1LBpUPDCVfh5jvHN6_MJkm3k-utfYE",
-    authDomain: "ivsiglesiaregatco.firebaseapp.com",
-    databaseURL: "hts://ivsiglesiaregatco-default-rtdb.firebaseio.com",
-    projectId: "ivsiglesiaregatco",
-    storageBucket: "ivsiglesiaregatco.firebasestorage.app",
-    messagingSenderId: "892878960949",
-    appId: "1:892878960949:web:93bc8715bc0de5b9cd747c",
-    measurementId: "G-K4L55LN63M"
+  apiKey: "AIzaSyApf3ZmNqhjhIVSRWV7BNISx4H2YIBwT6Q",
+  authDomain: "gmynimaxitiendaregadd.firebaseapp.com",
+  databaseURL: "https://gmynimaxitiendaregadd-default-rtdb.firebaseio.com",
+  projectId: "gmynimaxitiendaregadd",
+  storageBucket: "gmynimaxitiendaregadd.firebasestorage.app",
+  messagingSenderId: "835030557718",
+  appId: "1:835030557718:web:7045e20c0d741b817a8137",
+  measurementId: "G-SJBQEZNLJJ"
 });
 
 
@@ -188,6 +188,7 @@ onAuthStateChanged(auth, (user) => {
     //myDiv.style.backgroundColor = "lightblue";
   }
 });
+
 
 
 

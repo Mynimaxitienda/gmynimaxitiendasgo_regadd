@@ -1,4 +1,5 @@
 
+
 // iglsitwebapp.js
 
 const slider = document.querySelector('.slider');
